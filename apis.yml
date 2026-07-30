@@ -1,8 +1,23 @@
 aid: mast-reforestation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mast-reforestation.png
 name: Mast Reforestation
-description: Mast Reforestation is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Mast Reforestation (formerly DroneSeed) is North America's leading post-fire reforestation
+  and carbon-removal company, restoring wildfire-damaged forests across the American West. It operates
+  two nurseries, Cal Forest Nurseries and Silvaseed, manages the largest seed bank in the western United
+  States, grows more than 30 million seedlings annually, and develops carbon-removal credits by burying
+  post-wildfire biomass to finance reforestation for landowners and consulting foresters. Mast publishes
+  no public developer program or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/mast-reforestation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Reforestation
+- Carbon Removal
+- Forestry
+- Climate
+- Sustainability
+- Nurseries
+- Carbon Credits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +46,17 @@ maintainers:
 common:
 - type: Website
   url: https://mastreforest.com/
+- type: Blog
+  url: https://www.mastreforest.com/insights
+- type: Support
+  url: https://www.mastreforest.com/connect
+- type: TermsOfService
+  url: https://www.mastreforest.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.mastreforest.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  pass: local-v1
+  artifacts_added: 0
+  notes: No public API/developer surface; identity + link-properties completeness pass only.
